@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+
+    <style>
+        body {
+            background-color: white;
+            margin: -5px;
+            margin-top: -5px;
+            overflow-x: hidden;
+            
+        }
+
+        section {
+            background-image: radial-gradient(circle, #232cdbc7, #131877);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        form {
+            margin: auto;
+            background-color: white;
+            width: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+            <nav id="menu">
+                <ul type="none">
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                <li>
+                    <a href="form.html">
+                        Formulário
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<hr>
+
+    <section>
+        <form action="">
+            <fieldset>
+                <label for="nome">
+                    Nome: <input type="text" name="nome" id="nome" required placeholder="Seu nome" minlength="5" max="50" size="20">
+                </label>
+            <br>
+                <label for="mail">
+                    Email: <input type="email" name="mail" id="mail" required placeholder="Seu email" minlength="5" max="50" size="20">
+                </label>
+            <br>
+                <label for="senha">
+                    Senha: <input type="password" name="senha" id="senha" required placeholder="Sua senha" minlength="5" max="50" size="20">
+                </label>
+            <br>
+                <label for="data">
+                    Data de nascimento: <input type="date" name="data" id="data" required>
+                </label>
+            <br>
+                <label for="arq">
+                    Envie-nos seu documento: <input type="file" name="arq" id="aqr" required onclick="funcaoAlerta()" value="aqruivo">
+                </label>
+            <br>
+                <button type="submit" onclick="cadastroFeito()">Enviar</button>
+            </fieldset>
+        </form>
+
+    </section>
+
+    <footer>
+        Página feita por <a href="https://github.com/Joao-Paulo-Moreira">João Paulo Moreira</a>
+    </footer>
+
+    <script>
+        function funcaoAlerta()
+        {
+            alert('Por favor, selecione apenas um arquivo');
+        }
+
+        function cadastroFeito()
+        {
+            alert('Cadastro feito com sucesso');
+        }
+    </script>
+</body>
+</html>

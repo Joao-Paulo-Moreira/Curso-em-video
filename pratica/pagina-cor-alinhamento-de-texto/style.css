@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+body {
+    background-image: linear-gradient(45deg, #0F5594, #E00C00);
+    background-attachment: fixed;
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    color: #2D8BE0;
+}
+
+#content {
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    text-align: justify;
+    text-indent: 20px;
+    width: 550px;
+    box-shadow: 2px 2px 10px black;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(143, 127, 127);
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(207, 199, 199);
+    
+}

@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(15, 7, 7, 0.856);
+    color: white;
+}
+
+h1, h2, h3 {
+    background-image: linear-gradient(to bottom, orange, red);
+    color: orangered;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+ul, li a {
+    color: white;
+    text-decoration: none;
+    text-align: end;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    margin-bottom: 10pt;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(41, 40, 40);
+    box-shadow: 3px 3px 10px black;
+    width: 800px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+}
+
+
+
+header li {
+    border: 2px solid rgba(15, 7, 7, 0.856);
+    display: inline;
+    background-color: rgba(15, 7, 7, 0.74);
+    position: relative;
+    right: 315px;
+
+}
+
+header li:hover {
+    background-color: darkgrey;
+}
+
+main {
+    border: 2px solid black;
+    width: 420px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px black;
+    text-align: justify;
+    text-indent: 10px;
+    padding: 5px;
+}
+
+#principal {
+    margin: 5pt;
+    background-color: rgb(41, 40, 40);
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    padding: 2px;
+    text-align: center;
+}
+
+.noticia1 {
+    margin: 5pt;
+    background-color: rgb(41, 40, 40);
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    padding: 2px;
+    text-align: center;
+}
+
+.noticia2 {
+    margin: 5pt;
+    background-color: rgb(41, 40, 40);
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    padding: 2px;
+    text-align: center;
+}
+
+aside {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px black;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px black;
+    text-align: justify;
+    text-indent: 10px;
+    padding: 5px;
+    position: absolute;
+    left: 583px;
+    bottom: 180px;   
+}
+
+.info-aside {
+    background-color: rgb(41, 40, 40);
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    padding: 2px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    text-align: center;
+    position: relative;
+    right: 280px;
+}
+
+span {
+    text-decoration: underline;
+}

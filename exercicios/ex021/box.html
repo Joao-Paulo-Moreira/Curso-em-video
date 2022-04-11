@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav { 
+            background-color: grey;
+            padding: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.562);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font: bold;
+            margin-right: 30px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.438);
+        }
+
+        article {
+            background-color: lightgrey;
+        }
+
+        article > aside  {
+            background-color: rgb(121, 121, 121);
+        }
+
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        .bola {
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assustos">
+            <h1>Esportes</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum modi sunt error voluptates alias vero reiciendis commodi, consequatur, architecto maxime in quas totam unde, consectetur accusamus ipsum quaerat. Quas.</p>
+        </section>
+
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias do mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, placeat facilis. Iusto nulla pariatur amet consequuntur assumenda quas perspiciatis veritatis molestiae non fugiat? Laudantium, quia alias quos sint corrupti dolores.</p>
+                <aside>
+                    <p>Artigo escrito por João Paulo Moreira</p>
+                    </article>
+            </aside>
+        </section>
+    </main>
+ 
+<div class="bola"></div>
+
+
+    <footer>
+        <p>Desenvolvido por João Paulo Moreira</p>
+    </footer>
+</body>
+</html>
