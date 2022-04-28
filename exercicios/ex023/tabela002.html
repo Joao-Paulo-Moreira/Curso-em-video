@@ -25,6 +25,13 @@
             background-color: grey;
             color: white;
         }
+        
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
         .num {
             text-align: right;
@@ -36,11 +43,12 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
-                <th>Porcentagem da população</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col" style="width: 25px;">Porcentagem da população</th>
             </tr>
         </thead>
         <tbody>
@@ -182,7 +190,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td><strong>213.317.639</strong></td>
                 <td>100%</td>
             </tr>
