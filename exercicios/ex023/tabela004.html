@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border: 2px solid black;
+            width: 500px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px  scope="col"rgba(0, 0, 0, 0.653);
+        }
+
+        .cNome{
+            background-color: blue;
+        }
+
+        .cSexo{
+            background-color: aqua;
+        }
+
+        .cIdade {
+            background-color: blanchedalmond;
+        }
+
+        .cProf {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Exercícios de tabelas</h1>
+        <table>
+            <colgroup>
+                <col class="cNome">
+                <col class="cSexo">
+                <col class="cIdade">
+                <col class="cProf">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>Feminino</td>
+                <td>25 anos</td>
+                <td>Jornalista</td>
+            </tr>
+
+            <tr>
+                <td>Marcos</td>
+                <td>Masculino</td>
+                <td>30 anos</td>
+                <td>Engenheiro</td>
+            </tr>
+
+            <tr>
+                <td>Marcela</td>
+                <td>Feminino</td>
+                <td>23 anos</td>
+                <td>Modelo</td>
+            </tr>
+
+            <tr>
+                <td>Renato</td>
+                <td>Masculino</td>
+                <td>30 anos</td>
+                <td>Policial</td>
+            </tr>
+
+            <tr>
+                <td>Bruna</td>
+                <td>Feminino</td>
+                <td>22 anos</td>
+                <td>Psicologa</td>
+            </tr>
+
+            <tr>
+                <td>João</td>
+                <td>Masculino</td>
+                <td>22 anos</td>
+                <td>Programador</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
